@@ -22,6 +22,7 @@
         height: 200px;
         padding: 8px 144px;
         display: flex;
+        flex-direction: column;
         /*Font & Colour*/
         background-color: #1F2937;
         color: white;
@@ -38,30 +39,45 @@
         flex: 1
     }
 
-    .logo {
+        .logo {
+            /*Size & Alignment*/
+            border: 1px solid;
+            /*Font & Colour*/
+            font-weight: 900;
+        }
+
+        .header-links {
+            /*Temporary*/
+            border: 1px solid;
+            /*Font & Colour*/
+            font-size: smaller;
+        }
+
+        .header-links a {
+            /*Temporary*/
+            border: 1px solid;
+            /*Size & Alignment*/
+            color: white;
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px 12px;
+            gap: 8px;
+        }
+
+    .header-content {
+        /*Temporary*/
+        border: 1px solid;        
         /*Size & Alignment*/
-        border: 1px solid;
-        /*Font & Colour*/
-        font-weight: 900;
+        padding: 0px 0px 24px 0px;    
     }
 
-    .header-links {
-        /*Temporary*/
-        border: 1px solid;
-        /*Font & Colour*/
-        font-size: smaller;
-    }
-
-    .header-links a {
-        /*Temporary*/
-        border: 1px solid;
-        /*Size & Alignment*/
-        color: white;
-        text-decoration: none;
-        margin: 0px;
-        padding: 0px 12px;
-        gap: 8px;
-    }
+        .title {
+            /*Temporary*/
+            border: 1px solid; 
+           /*Font & Colour*/
+           font-size: x-large;    
+           font-weight: 700;         
+        }
 
 /*Content Section*/
 
