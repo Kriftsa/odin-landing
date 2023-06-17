@@ -32,7 +32,11 @@
         flex: 1
     }
 
-    ul {
+    .logo {
+        border: 1px solid
+    }
+
+    .header-links {
         /*Temporary*/
         border: 1px solid;
         /*Size & Alignment*/
