@@ -1,4 +1,5 @@
     body {
+        /*Size & Alignment*/
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -8,7 +9,8 @@
     }
 
     ul {
-        
+        margin: 0px;
+        padding: 0px;
     }
     
 /*Header Section*/
@@ -18,7 +20,7 @@
         border: 1px solid;
         /*Size & Alignment*/
         height: 200px;
-        padding: 8px;
+        padding: 8px 144px;
         display: flex;
         /*Font & Colour*/
         background-color: #1F2937;
@@ -44,8 +46,6 @@
         /*Temporary*/
         border: 1px solid;
         /*Size & Alignment*/
-        display: flex;
-
 
     }
 
