@@ -6,6 +6,10 @@
         /*Font & Colour*/
         font-family: Arial, Helvetica, sans-serif;
     }
+
+    ul {
+        
+    }
     
 /*Header Section*/
 
@@ -40,6 +44,8 @@
         /*Temporary*/
         border: 1px solid;
         /*Size & Alignment*/
+        display: flex;
+
 
     }
 
