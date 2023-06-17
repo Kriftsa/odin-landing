@@ -36,10 +36,19 @@
         /*Temporary*/
         border: 1px solid;
         /*Size & Alignment*/
-        margin: 0px;
-        padding: 0px;
+
     }
 
+    .header-links a {
+        /*Temporary*/
+        border: 1px solid;
+        /*Size & Alignment*/
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+        gap: 8px;
+    }
 
 /*Content Section*/
 
