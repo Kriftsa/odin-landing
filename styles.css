@@ -69,7 +69,8 @@
         border: 1px solid;        
         /*Size & Alignment*/
         padding: 0px 0px 24px 0px;    
-    }
+        display: flex;
+        }
 
         .title {
             /*Temporary*/
@@ -77,6 +78,14 @@
            /*Font & Colour*/
            font-size: x-large;    
            font-weight: 700;         
+        }
+
+        .header-image {
+            /*Size & Alignment*/
+            height: 100px;
+            /*Font & Colour*/ 
+            background-color: grey;
+            font-size: small;
         }
 
 /*Content Section*/
