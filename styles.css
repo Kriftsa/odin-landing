@@ -39,14 +39,17 @@
     }
 
     .logo {
-        border: 1px solid
+        /*Size & Alignment*/
+        border: 1px solid;
+        /*Font & Colour*/
+        font-weight: 900;
     }
 
     .header-links {
         /*Temporary*/
         border: 1px solid;
-        /*Size & Alignment*/
-
+        /*Font & Colour*/
+        font-size: smaller;
     }
 
     .header-links a {
@@ -56,7 +59,7 @@
         color: white;
         text-decoration: none;
         margin: 0px;
-        padding: 0px;
+        padding: 0px 12px;
         gap: 8px;
     }
 
