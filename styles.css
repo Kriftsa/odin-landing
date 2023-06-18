@@ -142,9 +142,9 @@
             .information-boxes {
             /*Size & Alignment*/
             display: flex;
-            padding: 12px 120px;
-            gap: 48px;
+            gap: 24px;
             justify-content: space-around;
+            flex-wrap: wrap;
             /*Font & Colour*/ 
             text-align: center;
             }
