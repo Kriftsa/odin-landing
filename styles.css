@@ -117,17 +117,20 @@
 
     .content {
         /*Temporary*/
-        border: 1px solid;
-        /*Temporary*/
-        height: auto;
+        height: 100px
     }
 
 /*Footer Section*/
     .footer{
-        /*Temporary*/
-        border: 1px solid;
-        /*Temporary*/
+        /*Size & Alignment*/
         height: 50px;
         display: flex;
         justify-self: flex-end;
+        align-items: flex-end;
+        justify-content: center;
+        padding-bottom: 12px;
+        /*Font & Colour*/ 
+        background-color: #1F2937;
+        color: #E5E7EB;
+        font-size: 18px;
     }
