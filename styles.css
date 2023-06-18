@@ -55,8 +55,8 @@
                 padding: 0px 12px;
                 gap: 8px;
                 /*Font & Colour*/
-            font-size: 18px;       
-            color: #E5E7EB; 
+                font-size: 18px;       
+                color: #E5E7EB; 
             }
 
         .header-content {       
@@ -116,16 +116,12 @@
 /*Content Section*/
 
     .content {
-        /*Temporary*/
-        border: 1px solid;
         /*Size & Alignment*/
         display: flex;
         flex-direction: column;
     }
 
         .information {
-            /*Temporary*/
-            border: 1px solid;
             /*Size & Alignment*/
             display: flex;
             flex-direction: column;
@@ -145,8 +141,6 @@
             }
             
             .information-boxes {
-            /*Temporary*/
-            border: 1px solid;
             /*Size & Alignment*/
             display: flex;
             padding: 12px 120px;
