@@ -121,7 +121,6 @@
         /*Size & Alignment*/
         display: flex;
         flex-direction: column;
-        padding: 8px 144px;
     }
 
         .information {
