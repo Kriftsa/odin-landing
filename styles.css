@@ -180,9 +180,27 @@
                     }
 
         .quotes {
-            /*Temporary*/
-            border: 1px solid;
+            /*Size & Alignment*/
+            padding: 128px 24px;
+            /*Font & Colour*/ 
+            background-color: #E5E7EB;
         }
+
+            .quote-text {
+                /*Font & Colour*/
+                color: #1F2937;
+                font-size: 36px;
+                font-weight: lighter;
+                font-style: italic;  
+            }
+
+            .quote-attribution {
+                /*Size & Alignment*/
+                text-align: right;
+                /*Font & Colour*/
+                font-weight: 700;
+                font-size: 20px;
+            }
 
         .notifications {
             /*Temporary*/
